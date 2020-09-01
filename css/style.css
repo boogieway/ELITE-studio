@@ -124,6 +124,7 @@ a {
 .mm-navbar__title {
   padding-top: 19px;
   padding-bottom: 20px;
+  background-color: rgb(212, 209, 202);
 }
 
 .menu__link {
