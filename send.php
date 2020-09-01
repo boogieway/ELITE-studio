@@ -58,10 +58,8 @@ $mail->Subject = $title;
 $mail->Body = $body;    
 
 // Проверяем отравленность сообщения
-if ($mail->send()) {
-    $result = "success";
-}else {$result = "error";
-}
+if ($mail->send()) {$result = "success";} 
+else {$result = "error";}
 
 } catch (Exception $e) {
     $result = "error";

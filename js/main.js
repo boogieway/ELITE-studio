@@ -122,7 +122,7 @@ window.addEventListener('load', function () {
         return reg.test(String(email).toLowerCase());
     }
 
-
+})
 
 $('.owl-carousel').owlCarousel({
     loop: true,
@@ -138,10 +138,11 @@ $('.owl-carousel').owlCarousel({
 document.addEventListener(
     "DOMContentLoaded", () => {
         new Mmenu("#my-menu", {
-            // options
             navbar: {
                 title: "Основное меню сайта"
             }
+            // dragOpen: { open: ($.mmenu.support.touch?true:false) }
+            // options
         }, {
             // configuration
             offCanvas: {
