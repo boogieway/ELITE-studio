@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.css">
+  <link rel="stylesheet" href="./css/mmenu.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="./css/mburger.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div id="my-page">
+    <div id="my-header" class="header__tablet">
+      <a href="#my-menu" class="mburger">
+        <b></b>
+        <b></b>
+        <b></b>
+      </a>
+      <a class="menu__logo" href="#">Сияние</a>
+      <div class="menu__form">
+        <form action="#" method="get" class="menu__search">
+          <input class="menu__input" type="search" placeholder="Поиск по сайту" name="search-menu">
+        </form>
+        <button class="menu__toggle"></button>  
+      </div>
+      <nav id="my-menu">
+        <ul>
+          <li><a class="menu__link" href="#">Каталог товаров</a></li>
+          <li><a class="menu__link" href="#">Новости и акции</a></li>
+          <li><a class="menu__link" href="#">Наши услуги</a></li>
+          <li><a class="menu__link" href="#">Портфолио</a></li>
+          <li><a class="menu__link" href="#">Блог</a></li>
+          <li><a class="menu__link" href="#">Контакты</a></li>
+          <li><a class="menu__link" href="#">О компании</a></li>
+          <li><a class="menu__link" href="#">Отзывы о нас</a></li>
+          <li><a class="menu__link" href="#">Доставка и оплата</a></li>
+          <li><a class="menu__link" href="#">Дизайнеры</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="my-content">
+      <div class="desktop__wrapper">
+        <div class="header__desktop">
+          <a class="header__logo" href="#">
+            <img src="./img/logo-desk.png" width="242" height="78" alt="Логотип">
+          </a>
+          <h1 class="header__title">Интернет-магазин отделочных материалов и дизайна.</h1>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item"><a href="#" class="header__link">Каталог товаров</a></li>
+              <li class="header__item"><a href="#" class="header__link">Новости и акции</a></li>
+              <li class="header__item"><a href="#" class="header__link">Наши услуги</a></li>
+              <li class="header__item"><a href="#" class="header__link">Портфолио</a></li>
+              <li class="header__item"><a href="#" class="header__link">Блог</a></li>
+              <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+            </ul>
+            <ul class="header__info">
+              <li class="header__issue"><a href="#" class="header__special">О компании</a></li>
+              <li class="header__issue"><a href="#" class="header__special">Отзывы о нас</a></li>
+              <li class="header__issue"><a href="#" class="header__special">Доставка и оплата</a></li>
+              <li class="header__issue"><a href="#" class="header__special">Дизайнеры</a></li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <span class="header__phone">+7 (4822) 648-080</span>
+            <button class="header__feedback">Заказать звонок</button>
+          </div>
+        </div>
+        <div class="slider__container">
+          <div class="owl-carousel owl-theme">
+            <div class="slider__item slider__item--first">
+              <div class="slider__description">
+                <h3 class="slider__title">Декоративные покрытия <br><span class="slider__title--small">от лучших
+                    производителей</span></h3>
+                <div class="slider__details">
+                  <a href="#" class="slider__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item--second">
+              <div class="slider__description">
+                <h3 class="slider__title">Photo 2 <br><span class="slider__title--small">детали...</span></h3>
+                <div class="slider__details">
+                  <a href="#" class="slider__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item--third">
+              <div class="slider__description">
+                <h3 class="slider__title">Photo 3 <br><span class="slider__title--small">детали...</span></h3>
+                <div class="slider__details">
+                  <a href="#" class="slider__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item--fourth">
+              <div class="slider__description">
+                <h3 class="slider__title">Photo 4 <br><span class="slider__title--small">детали...</span></h3>
+                <div class="slider__details">
+                  <a href="#" class="slider__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__wrapper">
+            <div class="modal__image">
+              <img src="./img/modal-photo.jpg" width="347" height="539" alt="Фото для модального окна">
+            </div>
+            <div class="modal__details">
+              <span class="modal__close"></span>
+              <h2 class="modal__title">Обратная связь</h2>
+              <form class="modal__form" enctype="multipart/form-data" method="post" id="form" action="send.php">
+                <p class="modal__passage">
+                  <label for="email" class="modal__id">E-mail<span class="modal__strictly">*</span></label>
+                  <input class="modal__email" type="text" name="email" id="email">
+                  <span class="error-status"></span>
+                </p>
+                <p class="modal__passage">
+                  <label for="phone" class="modal__id">Телефон<span class="modal__strictly">*</span></label>
+                  <input class="modal__phone" type="text" name="phone" id="phone">
+                  <span class="error-status"></span>
+                </p>
+                <p class="modal__passage">
+                  <label for="comment" class="modal__comment">Сообщение</label>
+                  <textarea name="comment" id="comment" cols="8" rows="6" class="modal__message"></textarea>
+                </p>
+                <div class="modal__result">
+                  <input class="modal__btn" type="submit" value="Отправить"><span></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script type="module" src="./js/mburger.js"></script>
+    <script src="./js/mmenu.js"></script>
+    <script src="./js/main.js"></script>
+      
+</body>
+
+</html>
